@@ -61,7 +61,7 @@ The application uses **TheMealDB API** to fetch recipe data dynamically.
 
 
 ## 🚀 Live Demo
-**Live Website:** 
+**Live Website:** ps2-recipe-finder.vercel.app
 
 ## 💻 Run Locally
 
@@ -114,7 +114,7 @@ recipe-finder/
 **Kavya**
 
 - GitHub: https://github.com/Skavya-06/ps2-recipe_finder
-- Live Demo: Add your deployed website URL
+- Live Demo: ps2-recipe-finder.vercel.app
 
 ## 📄 License
 This project was created for educational purposes as part of the PS2 Recipe Finder assignment.
