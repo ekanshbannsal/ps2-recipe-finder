@@ -95,12 +95,11 @@ recipe-finder/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── MealCard.jsx
-│   │   └── Navbar.jsx
-│   ├── pages/
 │   │   ├── Home.jsx
-│   │   ├── MealDetails.jsx
+│   │   ├── MealCard.jsx
+│   │   ├── MealDetail.jsx
 │   │   ├── Meals.jsx
+│   │   ├── Navbar.jsx
 │   │   └── NotFound.jsx
 │   ├── App.jsx
 │   ├── index.css
