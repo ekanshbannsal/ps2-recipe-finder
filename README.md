@@ -50,13 +50,15 @@ The application uses **TheMealDB API** to fetch recipe data dynamically.
 ## 📸 Screenshots
 
 ### 1. Home Page
-![Recipe Finder Home Page](screenshots/home.png)
+![Recipe Finder Home Page](<img width="3420" height="2224" alt="image" src="https://github.com/user-attachments/assets/fca0c7bb-06bf-4b8c-97e7-10dd0213c916" />
+)
 
 ### 2. Recipe Details Page
-![Recipe Finder Recipe Details](screenshots/recipe.png)
+![Recipe Finder Recipe Details](<img width="3420" height="2224" alt="image" src="https://github.com/user-attachments/assets/4dfdd453-4b62-464d-8f9d-67df6d211420" />
+)
 
 ## 🚀 Live Demo
-- **Live Website:** [https://ps2-recipe-finder.vercel.app](https://ps2-recipe-finder.vercel.app)
+- **Live Website:** https://ps2-recipe-finder-wine.vercel.app/
 
 ## 💻 Run Locally
 
@@ -115,7 +117,7 @@ recipe-finder/
 **Ekansh Bansal**
 
 - GitHub: [https://github.com/ekanshbannsal/ps2-recipe-finder](https://github.com/ekanshbannsal/ps2-recipe-finder)
-- Live Demo: [https://ps2-recipe-finder.vercel.app](https://ps2-recipe-finder.vercel.app)
+- Live Demo: [https://ps2-recipe-finder.vercel.app]([https://ps2-recipe-finder.vercel.app](https://ps2-recipe-finder-wine.vercel.app/))
 
 ## 📄 License
 This project was created for educational purposes as part of the PS2 Recipe Finder assignment.
