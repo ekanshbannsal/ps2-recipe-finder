@@ -1,15 +1,30 @@
 import { Link } from "react-router-dom";
 
-export default function Home() {
+function Home() {
   return (
-    <section className="hero">
-      <h1>Recipe Finder</h1>
-      <p>Search a dish and open its full recipe.</p>
-      <div className="nav-links" style={{ justifyContent: "center" }}>
-        <Link to="/meals?s=Chicken" className="btn">Chicken</Link>
-        <Link to="/meals?s=Pasta" className="btn">Pasta</Link>
-        <Link to="/meals?s=Cake" className="btn">Cake</Link>
+    <div className="home">
+      <p className="tag">FIND YOUR NEXT FAVOURITE MEAL</p>
+
+      <h1>Good food, <span>good mood.</span></h1>
+
+      <p>
+        Discover delicious recipes from around the world.
+        Find your favourite dish and start cooking.
+      </p>
+
+      <Link to="/meals" className="button">
+        Explore Recipes
+      </Link>
+
+      <h2>What are you craving?</h2>
+
+      <div className="quick-links">
+        <Link to="/meals?search=chicken">Chicken</Link>
+        <Link to="/meals?search=pasta">Pasta</Link>
+        <Link to="/meals?search=cake">Cake</Link>
       </div>
-    </section>
+    </div>
   );
 }
+
+export default Home;
