@@ -1,27 +1,29 @@
-import React from 'react'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Meals from './components/Meals'
-import MealDetail from './components/MealDetail'
-import NotFound from "./components/NotFound";
-
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Meals from "./pages/Meals";
+import MealDetails from "./pages/MealDetails";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Navbar />
-    <main className="container">
-    <Routes>
-        {/* //kaun se path pe kaun sa element render hoga */}
-          <Route path='/' element={<Home/>} />
-          <Route path='/meals' element={<Meals/>} />
-          <Route path='/meal/:id' element={<MealDetail/>} />
-          <Route path="*" element={<NotFound/>} />
-       </Routes>
-    </main>
-    </BrowserRouter>
-  )
+    <div className="app-layout">
+      <Navbar />
+
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/meals" element={<Meals />} />
+          <Route path="/meal/:id" element={<MealDetails />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+
+      <footer>
+        <p>© 2026 Recipe Finder</p>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
